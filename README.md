@@ -10,7 +10,7 @@ Rule:
 2) Never use Print Statments
 3) Always use logging while writing a code and log every activity performed by code in respective log file
 
-Packages (include log file generated inside respective package itself) Created:
+Packages (includes log file generated inside respective package itself) Created:
   1) list_package.zip                                                                                                                                               
           <img width="84" alt="image" src="https://user-images.githubusercontent.com/86144117/151924827-5b36785f-9429-4a05-a217-c8b775ae5302.png">
 
