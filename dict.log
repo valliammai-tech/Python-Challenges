@@ -1,0 +1,50 @@
+2022-01-31 22:38:18,057 INFO InvalidDataType Exception defined by developer
+2022-01-31 22:38:54,918 INFO dictionary passed for manipulation is {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}.
+2022-01-31 22:39:05,209 DEBUG dictionary items identified as dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+2022-01-31 22:39:13,087 DEBUG dictionary keys identified as dict_keys(['brand', 'model', 'year'])
+2022-01-31 22:39:19,943 DEBUG dictionary values identified as dict_values(['Ford', 'Mustang', 1964])
+2022-01-31 22:39:35,833 DEBUG from_keys method returns {'brand': 'Ford', 'model': 'Mustang', 'year': 1964} for dictionary passed as {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+2022-01-31 22:40:25,361 INFO inside get_value_of_userinput_key method. brand is the userinput received.
+2022-01-31 22:40:25,372 DEBUG return value for get_value_of_userinput_key is: 
+2022-01-31 22:40:37,238 INFO inside get_value_of_userinput_key method. hello is the userinput received.
+2022-01-31 22:40:37,238 DEBUG return value for get_value_of_userinput_key is: 
+2022-01-31 22:41:17,348 DEBUG search key identified for insert_default method is :
+2022-01-31 22:41:17,348 DEBUG value key identified for insert_default method is :
+2022-01-31 22:41:17,348 INFO insert_default returns value added
+2022-01-31 22:41:55,147 ERROR invalid data type passed to dict_upd method for new_kv_pair_upd parameter hello
+2022-01-31 22:41:55,147 ERROR 'str' object has no attribute 'keys'
+2022-01-31 22:41:55,148 DEBUG dict_upd method returns {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'valli': 'value added'}
+2022-01-31 22:43:17,116 DEBUG dict_upd method returns {'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'valli': 'value added', 'darshan': 'music'}
+2022-01-31 22:43:40,362 DEBUG dict_upd method returns {'brand': 'Ford!', 'model': 'Mustang', 'year': 1964, 'valli': 'value added', 'darshan': 'music'}
+2022-01-31 22:43:53,727 INFO copied value is {'brand': 'Ford!', 'model': 'Mustang', 'year': 1964, 'valli': 'value added', 'darshan': 'music'} returned by dict_copy method
+2022-01-31 22:44:30,067 DEBUG res value from dict_pop method is :
+2022-01-31 22:44:30,067 DEBUG res1 value from dict_pop method is :
+2022-01-31 22:44:49,709 DEBUG res value from dict_pop method is :
+2022-01-31 22:44:49,710 DEBUG res1 value from dict_pop method is :
+2022-01-31 22:45:18,122 DEBUG res value from dict_popitem method is :
+2022-01-31 22:45:18,122 DEBUG valid_keys from dict_popitem method is :
+2022-01-31 22:45:18,122 DEBUG value from dict_popitem method is :
+2022-01-31 22:45:18,122 DEBUG d value from dict_popitem method is :
+2022-01-31 22:45:18,122 DEBUG value from dict_popitem method is :
+2022-01-31 22:45:18,122 DEBUG d value from dict_popitem method is :
+2022-01-31 22:45:18,123 DEBUG value from dict_popitem method is :
+2022-01-31 22:45:18,123 DEBUG d value from dict_popitem method is :
+2022-01-31 22:45:18,123 DEBUG dict_popitem method returns {'darshan': 'music'} and {'brand': 'Ford!', 'model': 'Mustang', 'valli': 'value added'}
+2022-01-31 22:45:33,484 WARNING dictionary is cleared now as requested!!
+2022-01-31 22:52:59,369 INFO InvalidDataType Exception defined by developer
+2022-01-31 22:53:09,627 INFO dictionary passed for manipulation is {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}.
+2022-01-31 22:53:27,901 DEBUG res value from dict_pop method is :
+2022-01-31 22:53:27,901 DEBUG res1 value from dict_pop method is :
+2022-01-31 22:53:27,901 DEBUG res1 value from dict_pop method is :
+2022-01-31 22:53:27,901 DEBUG res1 value from dict_pop method is :
+2022-01-31 22:55:33,492 INFO InvalidDataType Exception defined by developer
+2022-01-31 22:55:44,020 INFO dictionary passed for manipulation is {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}.
+2022-01-31 22:55:59,753 DEBUG res value from dict_pop method is : value of poped key model is Mustang
+2022-01-31 22:55:59,753 DEBUG res1 value from dict_pop method is:  dict after pop of model is {'brand': 'Ford'}
+2022-01-31 22:55:59,754 DEBUG res1 value from dict_pop method is:  dict after pop of model is {'brand': 'Ford'}
+2022-01-31 22:55:59,754 DEBUG res1 value from dict_pop method is:  dict after pop of model is {'brand': 'Ford', 'year': 1964}
+2022-01-31 22:56:41,735 DEBUG res value from dict_popitem method is: {'year': 1964}
+2022-01-31 22:56:41,735 DEBUG valid_keys from dict_popitem method is: ['brand']
+2022-01-31 22:56:41,736 DEBUG value from dict_popitem method is: Ford
+2022-01-31 22:56:41,736 DEBUG d value from dict_popitem method is: {'brand': 'Ford'}
+2022-01-31 22:56:41,736 DEBUG dict_popitem method returns {'year': 1964} and {'brand': 'Ford'}

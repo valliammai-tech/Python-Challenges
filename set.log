@@ -1,0 +1,88 @@
+2022-01-31 01:37:39,805 INFO set_items provided by user: {'cherry', 'apple', 'banana'}
+2022-01-31 01:37:54,719 INFO Element to be passed is: Orange
+2022-01-31 01:37:54,719 INFO Element Orange Added to {'cherry', 'Orange', 'apple', 'banana'}
+2022-01-31 01:37:54,720 INFO set add method function execution completed
+2022-01-31 01:38:05,952 INFO Element to be passed is: Orange
+2022-01-31 01:38:05,953 ERROR set add method will not add this element as it is already existing in the list Orange
+2022-01-31 01:38:05,953 INFO set add method function execution completed
+2022-01-31 01:38:25,367 INFO Element to be passed is: Orange,Grapes
+2022-01-31 01:38:25,367 ERROR set add method will not accept multiple elements Orange,Grapes
+2022-01-31 01:38:25,367 INFO set add method function execution completed
+2022-01-31 02:09:25,858 INFO set for copying: (<__main__.copy_clear_set object at 0x0000017CEA7DAEE0>, {1, 2, 3})
+2022-01-31 02:09:49,868 INFO set to be cleared is: (<__main__.copy_clear_set object at 0x0000017CEA7DAEE0>, {1, 2})
+2022-01-31 03:14:14,698 DEBUG set1 is {'cherry', 'banana', 'apple'} and set2 is {'microsoft', 'apple', 'google'}
+2022-01-31 03:14:27,414 INFO set difference
+2022-01-31 03:14:37,826 INFO set difference update
+2022-01-31 03:14:37,826 INFO set difference
+2022-01-31 03:14:48,888 INFO set difference update
+2022-01-31 03:14:48,889 INFO set difference
+2022-01-31 03:15:16,551 INFO set difference
+2022-01-31 03:15:16,551 INFO set symmetric difference
+2022-01-31 03:15:32,897 INFO set symmetric difference update
+2022-01-31 03:15:32,897 INFO set difference update
+2022-01-31 03:15:32,897 INFO set difference
+2022-01-31 03:18:56,462 DEBUG set1 is {'cherry', 'banana', 'apple'} and set2 is {'cherry', 'banana', 'apple'}
+2022-01-31 03:19:07,187 INFO set difference
+2022-01-31 03:19:07,187 INFO set symmetric difference
+2022-01-31 03:19:31,437 DEBUG set1 is {'cherry', 'banana', 'apple'} and set2 is {'apple', 'microsoft', 'google'}
+2022-01-31 03:19:42,707 INFO set difference
+2022-01-31 03:19:42,707 INFO set symmetric difference
+2022-01-31 03:20:21,083 INFO set symmetric difference update
+2022-01-31 03:20:21,083 INFO set difference update
+2022-01-31 03:20:21,084 INFO set difference
+2022-01-31 03:27:09,993 DEBUG set1 is {'apple', 'banana', 'cherry'} and set2 is {'microsoft', 'apple', 'google'}
+2022-01-31 03:27:21,366 INFO set difference is {'banana', 'cherry'}
+2022-01-31 03:27:21,366 INFO set symmetric difference is {'microsoft', 'banana', 'cherry', 'google'}
+2022-01-31 03:27:32,372 INFO set difference is {'banana', 'cherry'}
+2022-01-31 03:27:32,372 INFO set difference update is {'banana', 'cherry'}
+2022-01-31 03:27:32,372 INFO set symmetric difference update is {'microsoft', 'banana', 'cherry', 'google'}
+2022-01-31 03:27:57,022 INFO set difference is {'banana', 'cherry'}
+2022-01-31 03:28:09,399 INFO set difference is {'banana', 'cherry'}
+2022-01-31 03:28:09,399 INFO set difference update is {'banana', 'cherry'}
+2022-01-31 04:17:47,598 INFO set provided by user for recycle process is: {'banana', 'cherry', 'apple'}
+2022-01-31 04:18:11,249 ERROR Raised user defined exception for set remove method as element hello to be removed from set does not exists
+2022-01-31 04:18:25,378 DEBUG after element banana removed from set {'banana', 'cherry', 'apple'} is {'cherry', 'apple'}
+2022-01-31 04:18:40,984 DEBUG after element banana discard from set {'banana', 'cherry', 'apple'} is {'cherry', 'apple'}
+2022-01-31 04:19:13,291 INFO set provided by user for recycle process is: {'banana', 'cherry', 'apple'}
+2022-01-31 04:19:30,960 INFO set pop method shuffles the set items and after pop: {'banana', 'cherry'}
+2022-01-31 04:19:46,239 INFO set provided by user for recycle process is: {'banana', 'cherry', 'apple'}
+2022-01-31 04:19:52,184 INFO set pop method shuffles the set items and after pop: {'cherry', 'apple'}
+2022-01-31 04:20:03,192 INFO set provided by user for recycle process is: {'banana', 'cherry', 'apple'}
+2022-01-31 04:20:23,016 DEBUG after element cherry discard from set {'banana', 'cherry', 'apple'} is {'banana', 'apple'}
+2022-01-31 16:45:57,916 INFO set1 {'cherry', 'apple', 'banana'} and set2 {'google', 'apple', 'microsoft'} are the values passed to the set_venn class
+2022-01-31 16:46:06,202 INFO set_update function returns {'cherry', 'banana', 'google', 'microsoft', 'apple'}
+2022-01-31 16:47:11,984 INFO set_update function returns {'cherry', 'banana', 'google', 'microsoft', 'apple'}
+2022-01-31 16:48:34,982 INFO set1 {'b', 'a', 'c'} and set2 {'a', 'd', 'f'} are the values passed to the set_venn class
+2022-01-31 16:48:43,723 INFO set_update function returns {'b', 'f', 'c', 'd', 'a'}
+2022-01-31 16:48:43,723 DEBUG set union function under set venn class returns: {'b', 'e', 'f', 'c', 'a', 'd'}
+2022-01-31 16:50:28,602 INFO set1 {'c', 'a', 'b'} and set2 {'f', 'd', 'a'} are the values passed to the set_venn class
+2022-01-31 16:50:40,677 INFO Additional arguments passed to set_union method is: ({'c', 'd', 'e'},)
+2022-01-31 16:50:40,677 INFO set_update function returns {'d', 'f', 'a', 'b', 'c'}
+2022-01-31 16:50:40,677 DEBUG set union function under set venn class returns: {'d', 'f', 'a', 'b', 'e', 'c'}
+2022-01-31 16:51:28,233 INFO set1 {'c', 'a', 'b'} and set2 {'c', 'd', 'e'} are the values passed to the set_venn class
+2022-01-31 16:51:46,883 INFO Additional args passed to set_intersection function: ({'f', 'c', 'g'}, {'c', 'a', 'b'})
+2022-01-31 16:51:46,883 DEBUG set_intersection function returns {'c'}
+2022-01-31 16:52:06,305 INFO Additional args passed to set_intersection function: ({'f', 'c', 'g'}, {'c', 'a', 'b'})
+2022-01-31 16:52:06,305 DEBUG set_intersection function returns {'c'}
+2022-01-31 16:52:06,305 INFO set_intersection_upd of self.set1 is: {'c'}
+2022-01-31 16:53:11,150 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'google', 'apple'} are the values passed to the set_venn class
+2022-01-31 16:54:07,226 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'facebook', 'google'} are the values passed to the set_venn class
+2022-01-31 16:55:03,591 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'facebook', 'google'} are the values passed to the set_venn class
+2022-01-31 16:55:50,071 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'facebook', 'google'} are the values passed to the set_venn class
+2022-01-31 16:56:27,184 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'google', 'apple'} are the values passed to the set_venn class
+2022-01-31 16:57:25,172 INFO set1 {'apple', 'cherry', 'banana'} and set2 {'microsoft', 'google', 'apple'} are the values passed to the set_venn class
+2022-01-31 16:58:45,525 INFO set1 {'d', 'f', 'b', 'a', 'e', 'c'} and set2 {'c', 'a', 'b'} are the values passed to the set_venn class
+2022-01-31 16:59:57,318 INFO set1 {'c', 'a', 'b'} and set2 {'d', 'f', 'b', 'a', 'e', 'c'} are the values passed to the set_venn class
+2022-01-31 17:30:46,371 INFO set1 {'c', 'b', 'a'} and set2 {'a', 'c', 'b', 'e', 'd', 'f'} are the values passed to the set_venn class
+2022-01-31 17:31:24,502 INFO set1 {'c', 'b', 'a'} and set2 {'c', 'b', 'e', 'd', 'f'} are the values passed to the set_venn class
+2022-01-31 17:35:51,643 INFO set1 {'a', 'c', 'b'} and set2 {'e', 'c', 'f', 'b', 'd'} are the values passed to the set_venn class
+2022-01-31 17:35:58,849 INFO set_superset method return False for sets {'a', 'c', 'b'} and {'e', 'c', 'f', 'b', 'd'}
+2022-01-31 17:36:09,735 INFO set1 {'a', 'c', 'b'} and set2 {'e', 'a', 'c', 'f', 'b', 'd'} are the values passed to the set_venn class
+2022-01-31 17:36:14,096 INFO set_superset method return False for sets {'a', 'c', 'b'} and {'e', 'a', 'c', 'f', 'b', 'd'}
+2022-01-31 17:36:35,319 INFO set_subset method return True for sets {'a', 'c', 'b'} and {'e', 'a', 'c', 'f', 'b', 'd'}
+2022-01-31 17:36:48,661 INFO set1 {'a', 'c', 'b'} and set2 {'e', 'c', 'f', 'b', 'd'} are the values passed to the set_venn class
+2022-01-31 17:36:56,057 INFO set_subset method return False for sets {'a', 'c', 'b'} and {'e', 'c', 'f', 'b', 'd'}
+2022-01-31 17:37:27,785 INFO set1 {'a', 'c', 'b'} and set2 {'e', 'c', 'f', 'b', 'd'} are the values passed to the set_venn class
+2022-01-31 17:37:34,646 INFO set_superset method return False for sets {'a', 'c', 'b'} and {'e', 'c', 'f', 'b', 'd'}
+2022-01-31 17:38:01,667 INFO set1 {'e', 'a', 'c', 'f', 'b', 'd'} and set2 {'a', 'c', 'b'} are the values passed to the set_venn class
+2022-01-31 17:38:09,462 INFO set_superset method return True for sets {'e', 'a', 'c', 'f', 'b', 'd'} and {'a', 'c', 'b'}

@@ -1,0 +1,49 @@
+2022-02-01 10:20:13,446 WARNING InvalidList Exception is defined
+2022-02-01 10:20:42,403 INFO list provided is: ['Ford', 'BMW', 'Volvo']
+2022-02-01 10:20:42,403 ERROR exceptions must derive from BaseException
+2022-02-01 10:21:17,871 INFO list provided is: hello
+2022-02-01 10:21:17,871 ERROR exceptions must derive from BaseException
+2022-02-01 10:21:28,001 INFO list provided is: ['Ford', 'BMW', 'Volvo']
+2022-02-01 10:21:28,001 ERROR exceptions must derive from BaseException
+2022-02-01 10:22:06,336 INFO list_append with value Lambogine to append returns ['Ford', 'BMW', 'Volvo', 'Lambogine']
+2022-02-01 10:22:23,502 INFO list_append with value [1, 2] to append returns ['Ford', 'BMW', 'Volvo', [1, 2]]
+2022-02-01 10:22:42,726 INFO value passed to extend list is : [1, 2]
+2022-02-01 10:22:42,734 DEBUG list_extend output is ['Ford', 'BMW', 'Volvo', 1, 2]
+2022-02-01 10:23:15,907 INFO list copied as ['Ford', 'BMW', 'Volvo', 1, 2]
+2022-02-01 10:23:27,849 INFO list_count returns 5
+2022-02-01 10:23:54,260 INFO value passed to get index is: BMW
+2022-02-01 10:24:09,648 INFO value passed to get index is: hello
+2022-02-01 10:24:09,648 WARNING invalid value hello that does not exists in dictionary is passed
+2022-02-01 10:25:02,970 INFO Position 2 and Value to insert ineuron are passed to list_insert method
+2022-02-01 10:25:02,970 INFO list_insert method call returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1, 2]
+2022-02-01 10:25:26,864 INFO Position 100 and Value to insert check index out of range are passed to list_insert method
+2022-02-01 10:25:26,864 INFO list_insert method call returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1, 2, 'check index out of range']
+2022-02-01 10:25:56,461 DEBUG Index Position to pop or remove value for list_pop method call is 100
+2022-02-01 10:25:56,461 ERROR pop index out of range for list_pop method call with index position to pop 100
+2022-02-01 10:25:56,461 INFO list_pop method returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1, 2, 'check index out of range']
+2022-02-01 10:26:17,567 DEBUG Index Position to pop or remove value for list_pop method call is 6
+2022-02-01 10:26:17,567 INFO list_pop method returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1, 2]
+2022-02-01 10:26:35,779 INFO value to remove 2 is passed to list_remove method call for list ['Ford', 'BMW', 'ineuron', 'Volvo', 1, 2]
+2022-02-01 10:26:35,779 INFO list_remove method call returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1]
+2022-02-01 10:26:45,703 INFO value to remove 2 is passed to list_remove method call for list ['Ford', 'BMW', 'ineuron', 'Volvo', 1]
+2022-02-01 10:26:45,703 ERROR list.remove(x): x not in list for value 2 from list ['Ford', 'BMW', 'ineuron', 'Volvo', 1] in list_remove method call
+2022-02-01 10:26:45,703 INFO list_remove method call returns ['Ford', 'BMW', 'ineuron', 'Volvo', 1]
+2022-02-01 10:28:32,889 ERROR Error occurred in list_sort method call for list ['Ford', 'BMW', 'ineuron', 'Volvo', 1]
+2022-02-01 10:29:07,226 WARNING Oops! List got cleared off as it is requested!!
+2022-02-01 10:29:18,540 WARNING InvalidList Exception is defined
+2022-02-01 10:29:42,371 INFO list provided is: ['Ford', 'BMW', 'Volvo', 'Audi']
+2022-02-01 10:29:42,371 ERROR exceptions must derive from BaseException
+2022-02-01 10:30:02,938 INFO reversed list is ['Audi', 'Volvo', 'BMW', 'Ford'] for list ['Ford', 'BMW', 'Volvo', 'Audi']
+2022-02-01 10:30:11,657 INFO list_sort method call returns ['Audi', 'BMW', 'Ford', 'Volvo'] for list ['Ford', 'BMW', 'Volvo', 'Audi']
+2022-02-01 10:31:05,609 INFO list_sort method call returns ['Volvo', 'Ford', 'BMW', 'Audi'] for list ['Ford', 'BMW', 'Volvo', 'Audi']
+2022-02-01 10:31:22,503 WARNING Oops! List got cleared off as it is requested!!
+2022-02-01 10:35:12,276 WARNING InvalidList Exception is defined
+2022-02-01 10:35:40,572 INFO list provided is: ['Ford', 'BMW', 'Volvo']
+2022-02-01 10:35:40,572 ERROR invalid list type
+2022-02-01 10:36:01,555 INFO list provided is: 3
+2022-02-01 10:36:01,555 ERROR invalid list type
+2022-02-01 10:37:29,795 WARNING InvalidList Exception is defined
+2022-02-01 10:37:47,665 INFO list provided is: ['Ford', 'BMW', 'Volvo']
+2022-02-01 10:38:31,089 INFO list provided is: (1, 2)
+2022-02-01 10:38:31,089 ERROR invalid list type
+2022-02-01 10:38:40,512 WARNING Oops! List got cleared off as it is requested!!

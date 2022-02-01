@@ -1,0 +1,30 @@
+2022-02-01 11:56:38,429 WARNING Invalid tuple data type exception defined
+2022-02-01 11:56:38,429 WARNING Invalid tuple index exception defined
+2022-02-01 11:56:59,832 INFO tuple is 3
+2022-02-01 11:56:59,832 CRITICAL Element passed to class tuple_t is not a tuple. It is 3
+2022-02-01 11:57:44,291 INFO tuple is ('7', '456', 'a', 'A', 'Q', 'k', 'z')
+2022-02-01 11:57:52,417 DEBUG t
+2022-02-01 11:58:24,159 INFO tuple is ('7', '4', 'a', 'A', 'Q', 'k', 'z')
+2022-02-01 11:58:28,468 DEBUG t
+2022-02-01 11:58:36,667 INFO tuple is ('7', '456', 'a', 'A', 'Q', 'k', 'z')
+2022-02-01 11:58:50,371 DEBUG )
+2022-02-01 11:59:05,525 INFO tuple is ('7', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 11:59:08,922 DEBUG )
+2022-02-01 11:59:21,132 INFO tuple_len method call returns 8
+2022-02-01 11:59:49,087 INFO value to be counted in list ('7', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') is k
+2022-02-01 11:59:49,087 INFO tuple_count method call with value k and tuple ('7', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 1
+2022-02-01 12:00:13,018 INFO tuple is ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:00:21,294 INFO value to be counted in list ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') is 7
+2022-02-01 12:00:21,294 INFO tuple_count method call with value 7 and tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 2
+2022-02-01 12:00:37,597 INFO value to be counted in list ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') is 100
+2022-02-01 12:00:37,597 WARNING value 100 passed to tuple_count function does not exists in tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:00:37,598 INFO tuple_count method call with value 100 and tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 0
+2022-02-01 12:01:01,785 INFO search key passed to tuple_index function call is 7 for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:01:01,786 INFO tuple_index function call with search key as 7 for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 0
+2022-02-01 12:01:13,816 INFO search key passed to tuple_index function call is z for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:01:13,816 INFO tuple_index function call with search key as z for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 8
+2022-02-01 12:01:20,787 INFO search key passed to tuple_index function call is Q for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:01:20,787 INFO tuple_index function call with search key as Q for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns 6
+2022-02-01 12:01:28,916 INFO search key passed to tuple_index function call is hello for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:01:28,916 ERROR search key hello passed to tuple_index function call does not exists in tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z')
+2022-02-01 12:01:28,917 INFO tuple_index function call with search key as hello for tuple ('7', '7', '77', '4', 'a', 'A', 'Q', 'k', 'z', 'Z') returns None
